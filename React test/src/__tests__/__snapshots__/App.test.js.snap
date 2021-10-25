@@ -1,0 +1,60 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<div
+  className="App"
+>
+  <div>
+    <button
+      className="btn-primary"
+      data-testid="btn"
+      onClick={[Function]}
+    >
+      View Charts
+    </button>
+    
+    <br />
+    <div
+      class="dropdown"
+    >
+      <button
+        class="dropbtn"
+        title="drop-btn"
+      >
+        Sort By
+      </button>
+      <div
+        class="dropdown-content"
+        id="sort-content"
+      >
+        <a
+          onClick={[Function]}
+        >
+          Name
+        </a>
+        <a
+          onClick={[Function]}
+        >
+          Price
+        </a>
+        <a
+          onClick={[Function]}
+        >
+          Category
+        </a>
+      </div>
+    </div>
+    <p>
+      Search: 
+      <input
+        id="searchTerm"
+        onKeyPress={[Function]}
+        type="text"
+      />
+    </p>
+    <div
+      id="divided"
+    />
+  </div>
+</div>
+`;

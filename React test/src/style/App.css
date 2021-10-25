@@ -1,0 +1,104 @@
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+body{
+  margin: 10px;
+}
+.card{
+  border: 1px solid black;
+  padding: 5px;
+  width: 48%;
+  margin: 2px;
+  float: left;
+}
+
+.dropbtn {
+  padding: 10px;
+  background-color: #1e5564;
+  color: white;
+  border-radius: 3px;
+  border: none;
+  font-size: 14px;
+  width: 140%;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  cursor: pointer;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: #27839c;}
+
+.charts{
+  width: 500px;
+  height: 500px;
+  margin-left: 250px;
+}
+.btn-primary{
+  padding: 10px;
+  background-color: #1e5564;
+  color: white;
+  border-radius: 3px;
+  border: none;
+
+}
+.card-img{
+display: flex;  
+float: right;
+width: 20%;
+}
